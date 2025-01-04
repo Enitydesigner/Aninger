@@ -1,2 +1,72 @@
-# Google App Engine generated folder
-appengine-generated/
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' https:; script-src 'self' https:;">
+    <title>Aninger - Play Games</title>
+    <style>
+        /* General reset */
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            background-color: #000;
+            color: #0f0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+        }
+        h1, h2 {
+            margin: 10px;
+            text-align: center;
+        }
+        a {
+            text-decoration: none;
+            color: #0f0;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            text-align: center;
+        }
+        .game-link {
+            margin: 10px;
+            padding: 15px;
+            border: 2px solid #0f0;
+            border-radius: 8px;
+            display: inline-block;
+            width: 200px;
+            transition: background-color 0.3s, transform 0.2s;
+        }
+        .game-link:hover {
+            background-color: #0a0;
+            transform: scale(1.1);
+        }
+        footer {
+            position: absolute;
+            bottom: 10px;
+            width: 100%;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to Aninger</h1>
+    <h2>Hack the Fun, Play the Games</h2>
+    <div class="container">
+        <div class="game-link">
+            <a href="#game1">Game 1: Snake</a>
+        </div>
+        <div class="game-link">
+            <a href="#game2">Game 2: Tetris</a>
+        </div>
+        <div class="game-link">
+            <a href="#game3">Game 3: Minesweeper</a>
+        </div>
